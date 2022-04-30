@@ -1,0 +1,63 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #141212 !important;
+}
+
+.App {
+    width: 30%;
+    background-color: rgba(19, 10, 10, 0.877);
+    margin: auto;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.profile{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.877);
+    margin: auto;
+    border-radius: 4px;
+}
+
+.info {
+    color: white;
+}
+
+.info .btn{
+    width: 35%;
+    display: inline-block;
+}
+
+.about, .interest {
+    text-align: left;
+    color: white;
+    padding: 15px;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+p{
+    font-size: 12px;
+}
+
+.footer {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.877);
+    margin: auto;
+    border-radius: 4px;
+    margin-top: 20px;
+    line-height: 50px;
+}
+.footer .social-media-icons {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 70px;
+}
